@@ -1,0 +1,15 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.border-split {
+  border-left: 1px solid rgb(179, 179, 179);
+}
+
+@media screen and (max-width: 500px) {
+  .border-split {
+    border-left: none;
+    border-bottom: 1px solid black;
+  }
+}
